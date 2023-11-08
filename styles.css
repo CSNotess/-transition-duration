@@ -1,0 +1,51 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+/*  settings */
+.body
+{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+}
+
+.DIV
+{
+    margin: 5px;
+    padding: 10px;
+    height: 100px;
+    width: 150px;
+    background-color: rgb(60, 0, 128);
+    border: 2px black solid;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.DIV p
+{
+    color: black;
+    font-size: large;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+
+.DIV:hover
+{
+    /* (try adding some random commands to test it out) */
+    background-color: rgb(62, 4, 4);
+    /* for here, i made it so that the size of the object would change, including its border */
+    height: 150px;
+    width: 200px;
+    border: 5px black dashed;
+    /* (the div would change into these settings for three seconds) */
+    transition-duration: 3s;
+}
